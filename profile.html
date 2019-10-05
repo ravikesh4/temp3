@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Jwellers- Shop</title>
+        <title>Jwellers- Profile</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/uikit.min.css" />
@@ -112,93 +112,127 @@
             </div>
         </header>
         <!-- end of navbar  -->
-        <!-- <section>
+        <section>
             <div class="shop-header uk-text-center">
-                <h2 class="uk-text-bolder">Shop</h2>
+                <h2 class="uk-text-bolder">My Profile</h2>
                 <ul class="uk-breadcrumb uk-flex-center">
                     <li><a href="index.html">Home</a></li>
-                    <li class="uk-disabled"><a>Shop</a></li>
+                    <li class="uk-disabled"><a>My Profile</a></li>
                 </ul>
             </div>
-        </section> -->
+        </section>
         <section class="uk-margin-large-top">
-            <div uk-grid>
-                <div class="uk-width-1-3@m uk-margin-large-left">
-                    <img src="images/product/product4.jpg" alt="">
-                </div>
-                <div class="uk-width-expand@m">
-                    <div>
-                        <ul class="uk-breadcrumb">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="shop.html">Shop</a></li>
-                            <li class="uk-disabled"><a>Product Details</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3><b>Moksha Damru Trishul Earrings</b></h3>
-                        <span class="uk-badge" ><span uk-icon="icon: star"></span> 4.7</span> Based On 35 Reviews
-                        <p>M.R.P.  <span class="strike">₹5499</span> </p>
-                        <h4><b>₹4999</b> <span class="uk-text-warning">30% Off</span></h4>
-                        <button class="uk-button uk-button-primary round-btn">Buy Now</button>
-                        <a href="my-cart.html"><button class="uk-button uk-button-danger round-btn">Add To Cart</button></a>
-
-                        <p><b>Product Details:</b></p>
-                        <ul>
-                            <li>Sales Package: 2 Earrings</li>
-                            <li>Colour: Multicolor, Silver</li>        
-                        </ul>
-                    </div>
-                </div>
-            </div>
             <div class="uk-container">
-                    <div class="uk-margin-top" uk-grid>
-                        <div class="uk-width-2-3@m">
-                            <div class="uk-card uk-card-default uk-card-body">
-                                <h4><b>About this Product</b></h4>
-                                <p class="uk-text-muted text-small">Traditional temple necklace set made from brass. Yellow gold plated. Pair with a silk saree. This piece of jewelry comes with the Voylla assurance of quality and durability. Caring for your fashion jewelry: We, at Voylla, take care of every piece of jewelry so that you don't spend hours caring for them. But do remember, fashion jewelry lasts longer when kept dry and free of chemicals. Follow this simple rule: Your jewelry should be the last thing you put on and the first thing you take off.</p>
-                                <div class="uk-child-width-1-2@m list-text" uk-grid>
-                                    <div>
-                                        <div class="uk-card uk-card-body">
-                                            <ul>
-                                                <li><b> Sales Package:</b> 1 Necklace; 2 Earrings</li>
-                                                <li><b> Surface Finish:</b> Textured</li>
-                                                <li><b> Design:</b> Geometric</li>
-                                                <li><b> Design Width:</b> 5.33 cm (2.1 inches)</li>
-                                                <li><b> Earring Width:</b> 9.4 mm (0.37 inches)</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="uk-card uk-card-body">
-                                            <ul>
-                                                <li><b> Colour:</b> Green, Gold, Red</li>
-                                                <li><b> Theme:</b> Classic</li>
-                                                <li><b> Material:</b> Brass</li>
-                                                <li><b> Design Length:</b> 6.35 cm (2.5 inches)</li>
-                                                <li><b> Earring Length:</b> 2.16 cm (0.85 inches)</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
+                <div uk-grid>
+                        <div class="uk-width-1-6@s">
+                            <ul class="uk-nav uk-nav-default" uk-switcher="connect: #component-nav; animation: uk-animation-fade">
+                                <li class="uk-active"><a href="#">Profile</a></li>
+                                <li><a href="#">Order History</a></li>
+                                <li><a href="#">Address Book</a></li>
+                                <li><a href="#">Email History</a></li>
+                            </ul>
                         </div>
-                        <div>
-                            <div class="uk-width-auto@m" uk-grid>
-                                <div>
-                                    <div class="uk-card uk-card-default uk-card-body">
-                                        <h6><b>Recommends</b></h6>
-                                        <img src="images/product/product1.jpg" alt="" width="150px" >
-                                            <p>Crown Summit Backpack</p>
-                                            <p>₹52.00</p>
-                                            <button class="uk-button-danger uk-button round-btn">Buy</button>
-                                            
+                        <div class="uk-width-5-6@m">
+                            <ul id="component-nav" class="uk-switcher">
+                                <li>
+                                    <h3><b>Profile</b></h3>
+                                    <table class="uk-table uk-table-divider uk-width-2-3@m">
+                                        <thead>
+                                            <tr>
+                                                <th class="uk-text-emphasis"><b> Name </b></th>
+                                                <td>Ravikesh Yadav</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th class="uk-text-emphasis"><b> Email </b></th>
+                                                <td>Ravikesh@gmail.com</td>
+                                            </tr>
+                                            <tr>
+                                                <th class="uk-text-emphasis"><b> Date registered </b></th>
+                                                <td> 	Feb. 11, 2019, 5:27 p.m.</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <button class="uk-button-small uk-button-primary">Change Password</button>
+                                                    <button class="uk-button-small uk-button-primary">Edit Profile</button>
+                                                    <button class="uk-button-small uk-button-danger">Delete Profile</button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </li>
+                                <li>
+                                    <table class="uk-table uk-table-hover uk-table-divider">
+                                        <thead>
+                                            <tr>
+                                                <th>Order number</th>
+                                                <th>Num items</th>
+                                                <th>Total Incl tax</th>
+                                                <th>Date Ordered</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><a href="track.html"> 100063 </a></td>
+                                                <td>2</td>
+                                                <td>₹ 4999.0</td>
+                                                <td>Feb. 11, 2019, 5:57 p.m.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="track.html"> 100063 </a></td>
+                                                <td>2</td>
+                                                <td>₹ 4999.0</td>
+                                                <td>Feb. 11, 2019, 5:57 p.m.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="track.html"> 100063 </a></td>
+                                                <td>2</td>
+                                                <td>₹ 4999.0</td>
+                                                <td>Feb. 11, 2019, 5:57 p.m.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </li>
+                                <li>
+                                    <div class="uk-card uk-card-default uk-card-body uk-width-1-2@m">
+                                        <h3 class="uk-card-title">Default</h3>
+                                        <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        <button class="uk-button-small uk-button-primary">Add New Address</button>
                                     </div>
-                                </div>
-                            </div>
+                                </li>
+                                <li>
+                                    <table class="uk-table uk-table-hover uk-table-divider">
+                                        <thead>
+                                            <tr>
+                                                <th>Table Heading</th>
+                                                <th>Table Heading</th>
+                                                <th>Table Heading</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Table Data</td>
+                                                <td>Table Data</td>
+                                                <td>Table Data</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Table Data</td>
+                                                <td>Table Data</td>
+                                                <td>Table Data</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Table Data</td>
+                                                <td>Table Data</td>
+                                                <td>Table Data</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </li>
+                            </ul>
                         </div>
-                    </div>
-                </div>  
+                </div>    
+            </div>  
         </section>
         <!-- footer section  -->
         <footer class="footer-background  uk-margin-medium-top" >
